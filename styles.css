@@ -1,4 +1,21 @@
 /* Dekat Studios site: Dock's own palette and type, light and dark. */
+
+/* Quicksand is served from this site, not Google Fonts: loading it from
+   Google's servers hands each visitor's IP address to Google without
+   consent, which a German court (LG München, 2022) ruled a GDPR breach. */
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/quicksand-regular.ttf") format("truetype");
+  font-weight: 400 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/quicksand-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+
 :root {
   --bg: #d9d3d3;
   --card: #cfc9c9;
