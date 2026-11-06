@@ -17,7 +17,7 @@
 
 <main class="doc">
 <h1>Privacy Policy for Dock</h1>
-<p class="updated">Last updated: October 17, 2026</p>
+<p class="updated">Last updated: November 6, 2026</p>
 
 <p>Dock is developed by Dekat ("we," "us"). This policy explains what information Dock collects, how it's used, and your choices, in plain terms that match exactly what the app actually does.</p>
 
@@ -64,7 +64,7 @@
 <h2>Permissions Dock uses, and why</h2>
 <ul>
   <li><strong>NFC</strong>: to read your physical tag and trigger a lock/unlock.</li>
-  <li><strong>Accessibility Service</strong>: this is the permission that lets Dock actually block apps and enforce Strict Mode. Specifically, it reads the package name of whichever app is in the foreground, to check it against your blocked list, and for web browsers specifically, reads the address bar's URL to check it against your blocked websites list. It does <strong>not</strong> read message content, keystrokes, passwords, or any other on-screen text or content. It only reads the foreground app's identity and, for browsers, the URL bar. None of this leaves your device.</li>
+  <li><strong>Accessibility Service</strong>: this is the permission that lets Dock actually block apps and enforce Strict Mode. Specifically, it reads the package name of whichever app is in the foreground, to check it against your blocked list, and for web browsers specifically, reads the address bar's URL to check it against your blocked websites list. It does <strong>not</strong> read message content, keystrokes, passwords, or any other on-screen text or content. It only reads the foreground app's identity and, for browsers, the URL bar. None of this leaves your device. When a blocked website is caught and you tap <strong>Got it</strong>, Dock opens a short "you're docked" page on dekatstudios.com in that browser. Its address is the same for everyone and never says which site was blocked. Like any website, the page's host (GitHub Pages) receives your IP address when it loads; we run no analytics or tracking on it. If you're offline, Dock opens a blank tab instead.</li>
   <li><strong>Notifications (post + listener access)</strong>: to detect and record notifications from blocked apps while you're docked (see "Blocked notifications" above), and to show Dock's own status notifications.</li>
   <li><strong>Schedule exact alarm</strong>: so scheduled locks/unlocks fire at the exact minute you set, rather than being delayed by the system.</li>
   <li><strong>Boot completed</strong>: to re-arm your schedules after your phone restarts.</li>
